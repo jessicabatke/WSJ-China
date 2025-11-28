@@ -4,7 +4,7 @@ from datetime import datetime
 import requests
 
 # Fetch the original feed
-feed_url = "https://example.com/world-news/feed"
+feed_url = "https://feeds.content.dowjones.io/public/rss/RSSWorldNews"
 feed = feedparser.parse(feed_url)
 
 # Create new RSS feed
