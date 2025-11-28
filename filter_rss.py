@@ -27,9 +27,3 @@ for entry in feed.entries:
 tree = ET.ElementTree(rss)
 ET.indent(tree, space='  ')
 tree.write('china_feed.xml', encoding='unicode', xml_declaration=True)
-```
-
-### 2. Create requirements.txt
-```
-feedparser
-requests
